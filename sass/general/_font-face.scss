@@ -1,0 +1,181 @@
+@font-face {
+    font-family: "Movistar_textregular";
+    src: url("..fonts/movistartext-regular-webfont.eot");
+    src: url("..fonts/movistartext-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/movistartext-regular-webfont.woff") format("woff"), url("../fonts/movistartext-regular-webfont.ttf") format("truetype"), url("../fonts/movistartext-regular-webfont.svg#movistar_textregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Movistar_textbold";
+    src: url("../fonts/movistartext-bold-webfont.eot");
+    src: url("../fonts/movistartext-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/movistartext-bold-webfont.woff") format("woff"), url("../fonts/movistartext-bold-webfont.ttf") format("truetype"), url("../fonts/movistartext-bold-webfont.svg#movistar_textregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Movistar_headlineregular";
+    src: url("../fonts/movistarheadline-regular-webfont.eot");
+    src: url("../fonts/movistarheadline-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/movistarheadline-regular-webfont.woff") format("woff"), url("../fonts/movistarheadline-regular-webfont.ttf") format("truetype"), url("../fonts/movistarheadline-regular-webfont.svg#Movistar_headlineregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Movistar_headlinebold";
+    src: url("../fonts/movistarheadline-bold-webfont.eot");
+    src: url("../fonts/movistarheadline-bold-webfont.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/movistarheadline-bold-webfont.woff") format("woff"),
+    url("../fonts/movistarheadline-bold-webfont.ttf") format("truetype"),
+    url("../fonts/movistarheadline-bold-webfont.svg#movistar_textregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Movistar_textitalic";
+    src: url("../fonts/movistartext-italic-webfont.eot");
+    src: url("../fonts/movistartext-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/movistartext-italic-webfont.woff") format("woff"), url("../fonts/movistartext-italic-webfont.ttf") format("truetype"), url("../fonts/movistartext-italic-webfont.svg#movistar_textregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face { 
+    font-family: 'telefonica_bold';
+    src: url('../fonts/TelefonicaWeb-Bold.eot');
+    src: url('../fonts/TelefonicaWeb-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TelefonicaWeb-Bold.woff2') format('woff2'),
+    url('../fonts/TelefonicaWeb-Bold.woff') format('woff'),
+    url('../fonts/TelefonicaWeb-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face { 
+    font-family: 'telefonica_xlight';
+    src: url('../fonts/TelefonicaWeb-ExtraLight.eot');
+    src: url('../fonts/TelefonicaWeb-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TelefonicaWeb-ExtraLight.woff2') format('woff2'),
+    url('../fonts/TelefonicaWeb-ExtraLight.woff') format('woff'),
+    url('../fonts/TelefonicaWeb-ExtraLight.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face { 
+    font-family: 'telefonica_hand'; 
+    src: url('../fonts/TelefonicaWeb-Hand.eot');
+    src: url('../fonts/TelefonicaWeb-Hand.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TelefonicaWeb-Hand.woff2') format('woff2'),
+    url('../fonts/TelefonicaWeb-Hand.woff') format('woff'),
+    url('../fonts/TelefonicaWeb-Hand.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face { 
+    font-family: 'telefonica_light'; 
+    src: url('TelefonicaWeb-Light.eot');
+    src: url('../fonts/TelefonicaWeb-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TelefonicaWeb-Light.woff2') format('woff2'),
+    url('../fonts/TelefonicaWeb-Light.woff') format('woff'),
+    url('../fonts/TelefonicaWeb-Light.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face { 
+    font-family: 'telefonica'; 
+    src: url('../fonts/TelefonicaWeb-Regular.eot');
+    src: url('../fonts/TelefonicaWeb-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TelefonicaWeb-Regular.woff2') format('woff2'),
+    url('../fonts/TelefonicaWeb-Regular.woff') format('woff'),
+    url('../fonts/TelefonicaWeb-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face { 
+    font-family: 'telefonica_italic'; 
+    src: url('../fonts/TelefonicaWeb-RegularItalic.eot');
+    src: url('../fonts/TelefonicaWeb-RegularItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TelefonicaWeb-RegularItalic.woff2') format('woff2'),
+    url('../fonts/TelefonicaWeb-RegularItalic.woff') format('woff'),
+    url('../fonts/TelefonicaWeb-RegularItalic.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face { 
+    font-family: 'telefonica_capweb'; 
+    src: url('../fonts/TelefonicaCapWeb-Regular.eot');
+    src: url('../fonts/TelefonicaCapWeb-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TelefonicaCapWeb-Regular.woff2') format('woff2'),
+    url('../fonts/TelefonicaCapWeb-Regular.woff') format('woff'),
+    url('../fonts/TelefonicaCapWeb-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Roboto_black";
+    src: url("../fonts/roboto-black-webfont.eot");
+    src: url("../fonts/roboto-black-webfont.eot?#iefix") format("embedded-opentype"), url("..fonts/roboto-black-webfont.woff") format("woff"), url("../fonts/roboto-black-webfont.ttf") format("truetype"), url("../fonts/roboto-black-webfont.svg#movistar_textregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto_bold";
+    src: url("../fonts/roboto-bold-webfont.eot");
+    src: url("../fonts/roboto-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-bold-webfont.woff") format("woff"), url("../fonts/roboto-bold-webfont.ttf") format("truetype"), url("../fonts/roboto-bold-webfont.svg#movistar_textregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/roboto-regular-webfont.eot");
+    src: url("../fonts/roboto-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-regular-webfont.woff") format("woff"), url("../fonts/roboto-regular-webfont.ttf") format("truetype"), url("../fonts/roboto-regular-webfont.svg#movistar_textregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto_regular";
+    src: url("../fonts/roboto-regular-webfont.eot");
+    src: url("../fonts/roboto-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-regular-webfont.woff") format("woff"), url("../fonts/roboto-regular-webfont.ttf") format("truetype"), url("../fonts/roboto-regular-webfont.svg#movistar_textregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Movistar_market";
+    src: url("../fonts/movistar_market-webfont.eot");
+    src: url("../fonts/movistar_market-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/movistar_market-webfont.woff") format("woff"), url("../fonts/movistar_market-webfont.ttf") format("truetype"), url("../fonts/movistar_market-webfont.svg#movistar_textregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto_light";
+    src: url("../fonts/roboto-light-webfont.eot");
+    src: url("../fonts/roboto-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-light-webfont.woff") format("woff"), url("../fonts/roboto-light-webfont.ttf") format("truetype"), url("../fonts/roboto-light-webfont.svg#movistar_textregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto_lightitalic";
+    src: url("../fonts/roboto-lightitalic-webfont.eot");
+    src: url("../fonts/roboto-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-lightitalic-webfont.woff") format("woff"), url("../fonts/roboto-lightitalic-webfont.ttf") format("truetype"), url("../fonts/roboto-lightitalic-webfont.svg#movistar_textregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto_thin";
+    src: url("../fonts/roboto-thin-webfont.eot");
+    src: url("../fonts/roboto-thin-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-thin-webfont.woff") format("woff"), url("../fonts/roboto-thin-webfont.ttf") format("truetype"), url("../fonts/roboto-thin-webfont.svg#movistar_textregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto_thinitalic";
+    src: url("../fonts/roboto-thinitalic-webfont.eot");
+    src: url("../fonts/roboto-thinitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-thinitalic-webfont.woff") format("woff"), url("../fonts/roboto-thinitalic-webfont.ttf") format("truetype"), url("../fonts/roboto-thinitalic-webfont.svg#movistar_textregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
