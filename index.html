@@ -19,11 +19,58 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+
+    <div class="col-md-12" w3-include-html="inc/header.html"></div>
+
+    <!--banner-->
+    <div class="col-md-12 banner-section">
+
+      <div class="banner-img">
+        <img src="img/banner.jpg" alt="Movistar one">
+      </div>
+
+      <div class="banner-caption">
+
+        <img src="img/movistar-one.png" alt="Movistar One">
+
+        <p class="caption-text">La mejor forma de renovar tu smartphone cada 12 meses</p>
+
+        <div class="separator xsmall"></div>
+
+        <div class="banner-box">
+          <div class="special-label">
+                <div class="col-md-6">
+                  <p>Contrata hoy un motorola + parlante JBL y ahorra con Movistar One</p>
+                </div>
+                <div class="col-md-6">
+                  <p class="text-icon">Incluye seguro</p>
+                </div>
+          </div>
+        </div>
+
+        <div class="banner-btn">
+          <a href="#0" class="btn btn-rounded green">Lo quiero</a>
+        </div>
+
+      </div>
+
+
+
+    </div>
+    <!-- banner-->
+
+
+    <div w3-include-html="inc/footer.html"></div>
+
+   <!-- /footer page -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script>
+      w3IncludeHTML();
+    </script>
   </body>
 </html>

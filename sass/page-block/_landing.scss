@@ -5,3 +5,64 @@ body {
 	height: 100%;
 	font-family: $roboto , $roboto-regular,Helvetica,Arial,sans-serif;
 }
+
+.header-text {
+	font-family: $telefonica;
+	color: $azul-5a;
+}
+
+.banner-section {
+	position: relative;
+	height: 100vh;
+	
+	.banner-img {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+
+		img {width: 100%;}
+	}
+
+	.banner-caption {
+	    width: 450px;
+	    top: 30%;
+	    position: relative;
+
+		.caption-text {
+			font-family: $telefonica-light;
+			font-size: $font-call-to-action;
+			color: white;
+		}
+	}
+}
+
+.special-label{
+	background-color: $verde-2b;
+	color: white;
+	display: block;
+	float:left;
+	padding:10px 0px;
+
+	p{
+		font-size: 12px;
+	}
+
+}
+
+
+.text-icon {
+	
+	font-weight: bold;
+
+	&.left {
+		i {margin-right:10px;}
+	}
+
+	&.right{
+		i {margin-left:10px;}
+	}
+	
+	&.medium {font-size: 18px;}
+
+	i {font-size: 30px;display: inline-block;}
+}
