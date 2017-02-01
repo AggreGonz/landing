@@ -1,9 +1,43 @@
+.btn-neutral {
+	padding:12px 22px;
+	text-decoration: none;
+	position: relative;
 
-.btn-rounded {
-	padding:10px 15px;
+	&:hover {    -webkit-transition: all .25s ease-in-out;
+     -moz-transition: all .25s ease-in-out;
+      -ms-transition: all .25s ease-in-out;
+       -o-transition: all .25s ease-in-out;
+          transition: all .25s ease-in-out;}
 
 	&.green{
 		background-color:$verde-2a;
 		color: white;
+
+		&:hover{
+			opacity: .8;
+		}
+	}
+
+	&.grey {
+		color:$azul-5a;
+		border: 1px solid rgba(92, 155, 250, 0.3);
+    	background-color: white;
+	}
+
+	&.btn-rounded {
+		@extend .btn-neutral;
+		border-radius: 40px;
+	}
+
+	&.left {
+		i {margin-right:10px;}
+	}
+
+	&.right{
+		i {margin-left:10px;}
+	}
+
+	i {
+		font-size: 16px;display: inline-block;vertical-align: middle;
 	}
 }

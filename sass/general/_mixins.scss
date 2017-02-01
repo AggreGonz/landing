@@ -7,6 +7,16 @@
   #{$name}: #{$argument};
 }
 
+@mixin transition($duration,$effect) {
+
+  -webkit-transition: all $duration $effect;
+     -moz-transition: all $duration $effect;
+      -ms-transition: all $duration $effect;
+       -o-transition: all $duration $effect;
+          transition: all $duration $effect;
+  
+}
+
 @mixin text-properties($family:null, $color:null, $size:null, $line-height:100%, $font-weight:null, $transform:null){
   font-family: $family;
   color: $color;
@@ -61,6 +71,7 @@
   color:$color;
 
 }
+
 @mixin boton-gordo($bradius:50px,$bg:#fff,$color:$text-azul-3,$bc:$bg*1.1,$fst:italic){
   @include vendor-prefix(border-radius, $bradius);
   height: 50px;
@@ -102,7 +113,6 @@
     background: linear-gradient(to right bottom, $color1 50%, $color2 50%)
   }
 }
-
 
 // Flecha del 100% de ancho para cajas
 @mixin flecha-v($color1,$color2,$height : 25px){

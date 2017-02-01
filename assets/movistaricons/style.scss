@@ -1,10 +1,12 @@
+@import "variables";
+
 @font-face {
   font-family: 'movistaricons';
-  src:  url('#{$icomoon-font-path}/movistaricons.eot?dag667');
-  src:  url('#{$icomoon-font-path}/movistaricons.eot?dag667#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/movistaricons.ttf?dag667') format('truetype'),
-    url('#{$icomoon-font-path}/movistaricons.woff?dag667') format('woff'),
-    url('#{$icomoon-font-path}/movistaricons.svg?dag667#movistaricons') format('svg');
+  src:  url('#{$icomoon-font-path}/movistaricons.eot?48jbef');
+  src:  url('#{$icomoon-font-path}/movistaricons.eot?48jbef#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/movistaricons.ttf?48jbef') format('truetype'),
+    url('#{$icomoon-font-path}/movistaricons.woff?48jbef') format('woff'),
+    url('#{$icomoon-font-path}/movistaricons.svg?48jbef#movistaricons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -904,3 +906,4 @@
     content: $ico-thin_up_arrow;
   }
 }
+

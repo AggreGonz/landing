@@ -1,4 +1,12 @@
 //header custom
+
+.no-padding {padding:0px;}
+
+.mo-main-header {
+    margin:0px;
+    padding:0px;
+}
+
 header {
     background: #fff;
     position: relative;
@@ -19,6 +27,26 @@ header {
 
             a {display: inline-block;
                 img {width: 100%;}
+            }
+        }
+
+        .navbar-nav {
+            float: left;
+            padding-left: 10px;
+            color: #fff;
+
+            &.separated {
+                position: relative;
+            }
+
+            li {
+                float: left;
+
+                a { font-family: $movistar-headlinebold;
+                    color: #fff;
+                    line-height: 38px;
+                    background: transparent;
+                    height: 63px;}
             }
         }
     }
@@ -51,7 +79,7 @@ header {
                     }
                     a {
 
-                        @include text-properties($roboto, $azul-2a, 0.7em, null, bold, uppercase);
+                        @include text-properties($roboto-bold, $azul-2a, 0.7em, null, null, uppercase);
                         &:hover, &:focus {
                             color: #3ba4fc;
                             text-decoration: none;

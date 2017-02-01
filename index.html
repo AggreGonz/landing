@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Template landing movistar</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -20,45 +20,341 @@
   </head>
   <body>
 
-    <div class="col-md-12" w3-include-html="inc/header.html"></div>
+    <div class="col-md-12 no-padding" w3-include-html="inc/header.html"></div>
 
-    <!--banner-->
-    <div class="col-md-12 banner-section">
+    <!--full banner section-->
+    <div class="col-md-12 full-banner-section">
+      <!--banner image mobile  jpg (alta)-->
+        <div class="banner-img-bg mobile" style=""></div>
+      <!--banner image mobile -->
 
-      <div class="banner-img">
-        <img src="img/banner.jpg" alt="Movistar one">
-      </div>
+      <!-- background image banner -->
+        <div class="banner-img-bg desktop" style="background-image: url(../img/bg1.png);"></div>
+      <!-- background image banner -->
 
-      <div class="banner-caption">
+      <div class="container">
+          <!--banner mobile -->
+          <div class="banner-mobile">
 
-        <img src="img/movistar-one.png" alt="Movistar One">
+            <!-- banner-caption mobile -->
+            <div class="banner-caption">
 
-        <p class="caption-text">La mejor forma de renovar tu smartphone cada 12 meses</p>
+              <img src="img/movistar-one.png" alt="Movistar One">
 
-        <div class="separator xsmall"></div>
+              <div class="separator xsmall"></div>
 
-        <div class="banner-box">
-          <div class="special-label">
-                <div class="col-md-6">
-                  <p>Contrata hoy un motorola + parlante JBL y ahorra con Movistar One</p>
+               <!--highlight text-1 -->
+              <p class="caption-text">La mejor forma de renovar tu smartphone <br> cada 12 meses</p>
+              <!--highlight text-1 -->
+
+              <!-- banner single image (png) -->
+              <div class="banner-single-image table-cell">
+                <img src="img/equipment.png" alt="">
+              </div>
+              <!-- banner single image -->
+
+              <!-- custom content -->
+              <div class="banner-box">
+                <div class="special-label">
+                      <div class="col-md-6 special-label__first">
+                        <p>Contrata hoy un motorola + parlante JBL y ahorra con Movistar One</p>
+                      </div>
+                      <div class="col-md-6 special-label__second">
+                        <p class="text-icon center left"><i class="ico-locked left"></i>Incluye seguro</p>
+                      </div>
                 </div>
-                <div class="col-md-6">
-                  <p class="text-icon">Incluye seguro</p>
-                </div>
+              </div>
+              <!-- custom content -->
+
+              <!-- button content -->
+              <div class="banner-btn">
+                <a href="#0" class="btn-neutral btn-rounded green right">Lo quiero <i class="ico-btn-arrow_right"></i></a>
+              </div>
+              <!-- button content -->
+
+            </div>
+            <!-- banner-caption mobile -->
+
           </div>
-        </div>
+          <!--banner mobile-->
+          
+          <!-- banner desktop -->
+          <div class="banner-desktop">
 
-        <div class="banner-btn">
-          <a href="#0" class="btn btn-rounded green">Lo quiero</a>
-        </div>
+            <div class="table-layout">
+              <!-- banner caption content -->
+              <div class="banner-caption table-cell">
 
+                <img src="img/movistar-one.png" alt="Movistar One">
+
+                <div class="separator xsmall"></div>
+
+                 <!--highlight text-1 -->
+                <p class="caption-text">La mejor forma de renovar tu smartphone cada 12 meses</p>
+                <!--highlight text-1 -->
+
+                <div class="separator xsmall"></div>
+                
+                <!-- custom content -->
+                <div class="banner-box">
+                  <div class="special-label">
+                        <div class="col-md-6 special-label__first">
+                          <p>Contrata hoy un motorola + parlante JBL y ahorra con Movistar One</p>
+                        </div>
+                        <div class="col-md-6 special-label__second">
+                          <p class="text-icon center left"><i class="ico-locked left"></i>Incluye seguro</p>
+                        </div>
+                  </div>
+                </div>
+                <!-- custom content -->
+                <div class="separator"></div>
+
+                <!-- button content -->
+                <div class="banner-btn">
+                  <a href="#0" class="btn-neutral btn-rounded green right">Lo quiero <i class="ico-btn-arrow_right"></i></a>
+                </div>
+                <!-- button content -->
+
+              </div>
+              <!-- banner caption content -->
+
+              <!-- banner single image (png) -->
+              <div class="banner-single-image table-cell">
+                <img src="img/equipment.png" alt="">
+              </div>
+              <!-- banner single image -->
+            </div>
+
+          </div>
+          <!-- banner desktop -->
+     
       </div>
-
-
 
     </div>
-    <!-- banner-->
+    <!-- full banner section -->
+    
+    <!-- call to action -->
+    <section class="col-md-12 no-padding">
+      <div class="call-to-action background-grey">
+        <div class="container">
+          <div class="col-md-8">
+            <span class="text-icon">
+              Conoce todos los equipos que puedes llevar con Movistar One.
+            </span>
+          </div>
+          <div class="col-md-4">
+            <a href="#0" class="btn-neutral btn-rounded grey right">ver equipos <i class="ico-btn-arrow_right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- call to action -->
+    
+    <!--call to action 2 -->
+    <section class="col-md-12 no-padding bg-deg">
+      <div class="call-to-action-2">
+        <div class="container">
+          <div class="center">
+            <h3 class="title-big tel-light">¿Qué es Movistar One?</h3>
+            <p class="desc desc-big"><b>Movistar One</b> es la mejor manera de renovar tu equipo <br> cada <b>12 meses sin pagos adicionales</b></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- call to action 2 -->
 
+    <!--section content -->
+    <section class="col-md-12 page-container">
+
+      <div class="container">
+
+
+        <div class="row padding-tb">
+            <div class="col-md-6">
+                <div class="icon-box-block">
+                  <i class="ico-mo-user"> </i>
+                  <h5>Cliente Movistar</h5>
+                  
+                  <p>Si eres cliente Movistar podrás Renovar tu equipo con Movistar One cada 12 meses con seguro incluido sin costo adicional.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+
+                <div class="icon-box-block">
+                  <i class="ico-mo-user"></i>
+                  <h5>Cliente Nuevo</h5>
+                  
+                  <p>Si no eres cliente Movistar  pórtate o abre una nueva línea y obtén el mejor Smartphone cada 12 meses con seguro incluido a través de Movistar One. </p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- content -->
+        <div  class="infographic infographic-container">
+            <div class="row">
+              <div class="scene-container">
+                <div id="cont1" class="col-md-12 table-layout">
+                    <div class="col-md-6 table-cell">
+                        <div class="infog-box">
+                            <h4 class="subtitle step-1"><span class="step">1</span>¡Elige el mejor Smartphone!</h4>
+                            <p class="text">Elige uno de los mejores Smartphone del mercado pagando solo una cuota inicial.</p>
+
+                            <div class="inner-image">
+                                <img src="img/companies.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 table-cell">
+                        <img class="image" src="img/image-step1.png" alt="">
+                    </div>
+                </div>
+
+                <div id="cont2" class="col-md-12 table-layout">
+                    <div class="col-md-6 table-cell">
+                        <img class="image" src="img/image-step2.png" alt="">
+                    </div>
+                    <div class="col-md-6 table-cell">
+                        <div class="infog-box">
+                            <h4 class="subtitle"><span class="step">2</span>¡Selecciona el Plan que más te guste!</h4>
+                            <p class="text">Selecciona tu nuevo Plan Multimedia con Redes Sociales y Apps incluidas.</p>
+                            <div class="inner-image">
+                                <img src="img/rs.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="cont3" class="col-md-12 table-layout">
+                    <div class="col-md-6 table-cell">                      
+                      <div class="infog-box">
+                        <h4 class="subtitle"><span class="step">3</span>Cuota mensual Movistar One con cargo a tu tarjeta de crédito </h4>
+                        <p class="text"> Deberás pagar una cuota inicial dependiendo del equipo contratado más 12 cuotas cargadas a tu tarjeta de crédito. Incluye seguro sin costo adicional.</p>
+
+                      </div>
+                        
+                    </div>
+                    <div class="col-md-4 table-cell">
+                        <img class="image" src="img/image-step3.png" alt="">
+                    </div>
+                </div>
+
+                <div id="cont4" class="col-md-12 table-layout">
+                    <div class="col-md-6 table-cell">
+                        <img class="image" src="img/image-step4.png" alt="">
+                    </div>
+                    <div class="col-md-6 table-cell">
+                        <div class="infog-box">
+                            <h4 class="subtitle"><span class="step">4</span>¡Ten la versión más actual de tu Smartphone cada 12 meses!</h4>
+                            <p class="text">A los 12 meses tráenos tu Smartphone en
+                              buenas condiciones y te entregamos el último
+                              Smartphone del mercado sin pagos adicionales.
+                              Con Movistar One podrás ahorrar desde $200.000 al año.</p>
+                              <a href="#0" class="link">Ver condiciones de recambio</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="cont5" class="col-md-12">
+                    <div class="btn-container">
+                        <a href="#0" class="btn-neutral btn-rounded grey right">Quiero Movistar One<i class="ico-btn-arrow_right"></i></a>
+                    </div>
+                </div>
+
+                <!--svg -->
+                <svg id="Grupo_3" data-name="Grupo 3" xmlns="http://www.w3.org/2000/svg" width="1025" height="839" viewBox="0 0 1025 839">
+                  <defs>
+                    <style>
+                      .cls-1 {
+                        fill: #95c8fd;
+                      }
+                      .color {color:#1e9fff;}
+                      .cls-2 {
+                        fill: rgba(0,0,0,0);
+                      }
+                    </style>
+                  </defs>
+                  <path id="line1" data-name="line1" class="cls-2" d="M160.5,2081a1.5,1.5,0,0,1,1.5,1.49v134.38a8.507,8.507,0,0,0,8.5,8.49H1150.73a11.5,11.5,0,0,1,11.5,11.48v129.15l8.57-9.2,2.2,2.04L1160.73,2372l-12.27-13.17,2.2-2.04,8.57,9.2V2236.84a8.51,8.51,0,0,0-8.5-8.49H170.5a11.505,11.505,0,0,1-11.5-11.48V2082.49A1.5,1.5,0,0,1,160.5,2081Z" transform="translate(-148 -2081)" style="stroke-linecap: round; stroke-linejoin: round;"/>
+                  <path id="line2" data-name="line2" class="cls-2" d="M1160.5,2385a1.5,1.5,0,0,0-1.5,1.49v134.38a8.51,8.51,0,0,1-8.5,8.49H170.275a11.505,11.505,0,0,0-11.5,11.48v129.15l-8.574-9.2-2.2,2.04L160.27,2676l12.272-13.17-2.2-2.04-8.571,9.2V2540.84a8.507,8.507,0,0,1,8.5-8.49H1150.5a11.5,11.5,0,0,0,11.5-11.48V2386.49A1.5,1.5,0,0,0,1160.5,2385Z" transform="translate(-148 -2081)" style="stroke-linecap: round; stroke-linejoin: round;"/>
+                  <path id="line3" data-name="line3" class="cls-2" d="M160.5,2691a1.5,1.5,0,0,1,1.5,1.49v134.38a8.507,8.507,0,0,0,8.5,8.49H649.725a11.505,11.505,0,0,1,11.5,11.48v67.15l8.574-9.2,2.2,2.04L659.73,2920l-12.272-13.17,2.2-2.04,8.571,9.2v-67.15a8.507,8.507,0,0,0-8.5-8.49H170.5a11.505,11.505,0,0,1-11.5-11.48V2692.49A1.5,1.5,0,0,1,160.5,2691Z" transform="translate(-148 -2081)" style="stroke-linecap: round; stroke-linejoin: round;"/>
+                </svg>
+                <!-- svg -->
+              </div>
+            </div>
+
+        </div>
+        <!-- content -->
+
+      </div><!--container -->
+
+    </section>
+    <!--section content -->
+
+    <!-- section title 3 3 icon-box -->
+    <section class="col-md-12 padding-tb normal">
+      <div class="block-title">
+          <h2>Otros beneficios de Movistar One</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="icon-box-block line-separator">
+              <i class="ico-secure-2"> </i>
+              <h5>Seguro incluido</h5>
+              
+              <p>Si eres cliente Movistar podrás Renovar tu equipo con Movistar One cada 12 meses con seguro incluido sin costo adicional.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+
+            <div class="icon-box-block line-separator">
+              <i class="ico-circle-currency"> </i>
+              <h5>Smartphone más accequible y conveniente</h5>
+              
+              <p>Si eres cliente Movistar podrás Renovar tu equipo con Movistar One cada 12 meses con seguro incluido sin costo adicional.</p>
+            </div>
+      
+          </div>
+          <div class="col-md-4">
+
+            <div class="icon-box-block line-separator">
+              <i class="ico-update"> </i>
+              <h5>Mantente actualizado</h5>
+              
+              <p>Si eres cliente Movistar podrás Renovar tu equipo con Movistar One cada 12 meses con seguro incluido sin costo adicional.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section title 3 3 icon-box -->
+
+
+    <!--banner section new 2 columns -->
+    <section class="col-md-12 container">
+      <div class="container">
+          <div class="table-layout">
+              <div class="new-banner-block image-bg table-cell" style="background-image: url(../img/bg1.png);">
+                  <div class="table-layout">
+                      <div class="table-cell">
+                        <h4 class="title-new-banner">Renueva ahora tu Smartphone y recibe el siguiente sin pagar de más</h4>
+                      </div>
+                      <div class="table-cell">
+                        <img src="img/equipment-2.png" alt="">
+                      </div>
+                  </div>
+                  <div class="table-layout">
+                  </div>
+                  <div class="btn-container">
+                      <a href="#0" class="btn-neutral btn-rounded green right">Lo quiero <i class="ico-btn-arrow_right"></i></a>
+                  </div>
+              </div>
+              <div class="new-banner-block table-cell">
+                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero at error hic id, similique et fugit amet ipsa expedita nulla aut nam nesciunt magnam corporis perferendis necessitatibus optio ab obcaecati!</p>
+              </div>
+          </div>
+      </div>
+    </section>
+    <!-- banner section new columns  -->
 
     <div w3-include-html="inc/footer.html"></div>
 
@@ -66,11 +362,19 @@
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/jquery.ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.min.js">  </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+    <script src="js/w3data.js"></script>
+    <script src="js/scripts.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script>
       w3IncludeHTML();
     </script>
+
   </body>
 </html>
